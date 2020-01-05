@@ -1,0 +1,39 @@
+
+/*use this color as your background color later: #774848!important*/
+
+.bord{
+    border-right:4px solid #00AEFF;
+}
+.bordC {
+    border:5px solid #00AEFF; 
+}
+.bordCdash{
+    border:2.5px solid #00AEFF;
+  
+}
+.ul {
+    list-style: none;
+}
+.btn-custom {
+
+    margin: 2em auto auto auto;
+     display:block;
+     width:9em;
+}
+.bnh{
+    float:right;
+    clear:left;
+    display:block;
+   
+}
+
+@media screen and (max-width: 645px) {
+    .bord {
+        display:none;
+    }
+    .col-9{
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+}
